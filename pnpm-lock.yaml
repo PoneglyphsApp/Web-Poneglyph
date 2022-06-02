@@ -105,6 +105,7 @@ importers:
       '@mantine/spotlight': ^4.2.7
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
+      dayjs: ^1.11.2
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
       react: ^17.0.2
@@ -116,6 +117,7 @@ importers:
       '@mantine/notifications': 4.2.7_fpjividchzkaacugli52ylcef4
       '@mantine/prism': 4.2.7_fpjividchzkaacugli52ylcef4
       '@mantine/spotlight': 4.2.7_fpjividchzkaacugli52ylcef4
+      dayjs: 1.11.2
     devDependencies:
       '@types/react': 17.0.45
       '@types/react-dom': 17.0.17
@@ -1293,6 +1295,10 @@ packages:
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
+    dev: false
+
+  /dayjs/1.11.2:
+    resolution: {integrity: sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==}
     dev: false
 
   /debug/2.6.9:

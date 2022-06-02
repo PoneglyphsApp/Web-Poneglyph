@@ -21,6 +21,7 @@
     "@mantine/hooks": "^4.2.7",
     "@mantine/notifications": "^4.2.7",
     "@mantine/prism": "^4.2.7",
-    "@mantine/spotlight": "^4.2.7"
+    "@mantine/spotlight": "^4.2.7",
+    "dayjs": "^1.11.2"
   }
 }
