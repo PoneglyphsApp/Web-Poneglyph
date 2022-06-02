@@ -89,6 +89,7 @@ importers:
   apps/me:
     specifiers:
       '@mantine/core': ^4.2.7
+      '@mantine/dates': ^4.2.7
       '@mantine/form': ^4.2.7
       '@mantine/hooks': ^4.2.7
       '@types/react': ^18.0.0
@@ -101,6 +102,7 @@ importers:
       vite: ^2.9.9
     dependencies:
       '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
+      '@mantine/dates': 4.2.7_xccdkv6swq2bgxw3shc74hma4y
       '@mantine/form': 4.2.7_react@18.1.0
       '@mantine/hooks': 4.2.7_react@18.1.0
       dayjs: 1.11.2
@@ -732,6 +734,20 @@ packages:
       '@mantine/hooks': 4.2.7_react@17.0.2
       dayjs: 1.11.2
       react: 17.0.2
+    dev: false
+
+  /@mantine/dates/4.2.7_xccdkv6swq2bgxw3shc74hma4y:
+    resolution: {integrity: sha512-+60DdqTLAXVZVR1z/YZRhL2RjwVE6iaoevNOk8OGVPbXLO7oSBK2LA20JBljZizDEZaI0sg6aTUhdhTMX+IHBA==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      dayjs: ^1.10.5
+      react: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
+      '@mantine/hooks': 4.2.7_react@18.1.0
+      dayjs: 1.11.2
+      react: 18.1.0
     dev: false
 
   /@mantine/dropzone/4.2.7_fpjividchzkaacugli52ylcef4:
