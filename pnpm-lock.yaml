@@ -94,6 +94,7 @@ importers:
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
       '@vitejs/plugin-react': ^1.3.0
+      dayjs: ^1.11.2
       react: ^18.0.0
       react-dom: ^18.0.0
       typescript: ^4.6.3
@@ -102,6 +103,7 @@ importers:
       '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
       '@mantine/form': 4.2.7_react@18.1.0
       '@mantine/hooks': 4.2.7_react@18.1.0
+      dayjs: 1.11.2
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
     devDependencies:
