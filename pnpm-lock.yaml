@@ -90,6 +90,7 @@ importers:
     specifiers:
       '@mantine/core': ^4.2.7
       '@mantine/dates': ^4.2.7
+      '@mantine/dropzone': ^4.2.7
       '@mantine/form': ^4.2.7
       '@mantine/hooks': ^4.2.7
       '@mantine/notifications': ^4.2.7
@@ -105,6 +106,7 @@ importers:
     dependencies:
       '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
       '@mantine/dates': 4.2.7_xccdkv6swq2bgxw3shc74hma4y
+      '@mantine/dropzone': 4.2.7_3uc52xttrc33ha2poxtweef65u
       '@mantine/form': 4.2.7_react@18.1.0
       '@mantine/hooks': 4.2.7_react@18.1.0
       '@mantine/notifications': 4.2.7_3uc52xttrc33ha2poxtweef65u
@@ -752,6 +754,21 @@ packages:
       '@mantine/hooks': 4.2.7_react@18.1.0
       dayjs: 1.11.2
       react: 18.1.0
+    dev: false
+
+  /@mantine/dropzone/4.2.7_3uc52xttrc33ha2poxtweef65u:
+    resolution: {integrity: sha512-eQTVX5hClHNYR6UzNa4P559LsbfdqNHJUu/P7TiIvwIHqKRVjDRkuSZMciSpWqBueBfzrdCZQ32exb3l299Xfg==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
+      '@mantine/hooks': 4.2.7_react@18.1.0
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-dropzone: 11.7.1_react@18.1.0
     dev: false
 
   /@mantine/dropzone/4.2.7_fpjividchzkaacugli52ylcef4:
@@ -3410,6 +3427,18 @@ packages:
       file-selector: 0.4.0
       prop-types: 15.8.1
       react: 17.0.2
+    dev: false
+
+  /react-dropzone/11.7.1_react@18.1.0:
+    resolution: {integrity: sha512-zxCMwhfPy1olUEbw3FLNPLhAm/HnaYH5aELIEglRbqabizKAdHs0h+WuyOpmA+v1JXn0++fpQDdNfUagWt5hJQ==}
+    engines: {node: '>= 10.13'}
+    peerDependencies:
+      react: '>= 16.8'
+    dependencies:
+      attr-accept: 2.2.2
+      file-selector: 0.4.0
+      prop-types: 15.8.1
+      react: 18.1.0
     dev: false
 
   /react-fast-compare/3.2.0:
