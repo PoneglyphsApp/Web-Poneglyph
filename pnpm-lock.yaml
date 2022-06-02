@@ -100,6 +100,7 @@ importers:
     specifiers:
       '@mantine/core': ^4.2.7
       '@mantine/hooks': ^4.2.7
+      '@mantine/spotlight': ^4.2.7
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
       eslint: ^7.32.0
@@ -110,6 +111,7 @@ importers:
     dependencies:
       '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
       '@mantine/hooks': 4.2.7_react@17.0.2
+      '@mantine/spotlight': 4.2.7_fpjividchzkaacugli52ylcef4
     devDependencies:
       '@types/react': 17.0.45
       '@types/react-dom': 17.0.17
@@ -579,6 +581,19 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
+      react: 17.0.2
+    dev: false
+
+  /@mantine/spotlight/4.2.7_fpjividchzkaacugli52ylcef4:
+    resolution: {integrity: sha512-mpmZ7gvQuCjwAWCqDx24PJzMGFjouhTmZEb7/jDdDc6HpPbBp0rXJz+pvX3uiesZ27oI5eY0q3eh7fn9w+zX7g==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
+      '@mantine/hooks': 4.2.7_react@17.0.2
       react: 17.0.2
     dev: false
 

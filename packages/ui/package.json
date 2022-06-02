@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@mantine/core": "^4.2.7",
-    "@mantine/hooks": "^4.2.7"
+    "@mantine/hooks": "^4.2.7",
+    "@mantine/spotlight": "^4.2.7"
   }
 }
