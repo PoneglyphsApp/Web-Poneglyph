@@ -100,6 +100,7 @@ importers:
     specifiers:
       '@mantine/core': ^4.2.7
       '@mantine/hooks': ^4.2.7
+      '@mantine/prism': ^4.2.7
       '@mantine/spotlight': ^4.2.7
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
@@ -111,6 +112,7 @@ importers:
     dependencies:
       '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
       '@mantine/hooks': 4.2.7_react@17.0.2
+      '@mantine/prism': 4.2.7_fpjividchzkaacugli52ylcef4
       '@mantine/spotlight': 4.2.7_fpjividchzkaacugli52ylcef4
     devDependencies:
       '@types/react': 17.0.45
@@ -581,6 +583,20 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
+      react: 17.0.2
+    dev: false
+
+  /@mantine/prism/4.2.7_fpjividchzkaacugli52ylcef4:
+    resolution: {integrity: sha512-QIsqnqKSUV5a/8XRSqHixjAVfpZX1PDfQvEfDUL9cO1/aXejtAZJ2zyvU3+LH1YVjWdDFGNK+oCrNVBZ1ST3NA==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
+      '@mantine/hooks': 4.2.7_react@17.0.2
+      prism-react-renderer: 1.3.3_react@17.0.2
       react: 17.0.2
     dev: false
 
@@ -2675,6 +2691,14 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
+
+  /prism-react-renderer/1.3.3_react@17.0.2:
+    resolution: {integrity: sha512-Viur/7tBTCH2HmYzwCHmt2rEFn+rdIWNIINXyg0StiISbDiIhHKhrFuEK8eMkKgvsIYSjgGqy/hNyucHp6FpoQ==}
+    peerDependencies:
+      react: '>=0.14.9'
+    dependencies:
+      react: 17.0.2
+    dev: false
 
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
