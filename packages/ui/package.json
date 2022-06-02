@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@mantine/core": "^4.2.7",
+    "@mantine/dates": "^4.2.7",
     "@mantine/hooks": "^4.2.7",
     "@mantine/notifications": "^4.2.7",
     "@mantine/prism": "^4.2.7",

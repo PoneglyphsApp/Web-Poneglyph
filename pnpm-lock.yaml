@@ -99,6 +99,7 @@ importers:
   packages/ui:
     specifiers:
       '@mantine/core': ^4.2.7
+      '@mantine/dates': ^4.2.7
       '@mantine/hooks': ^4.2.7
       '@mantine/notifications': ^4.2.7
       '@mantine/prism': ^4.2.7
@@ -113,6 +114,7 @@ importers:
       typescript: ^4.5.2
     dependencies:
       '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
+      '@mantine/dates': 4.2.7_oawyaoyg2dg5cst6qbz5qfluxm
       '@mantine/hooks': 4.2.7_react@17.0.2
       '@mantine/notifications': 4.2.7_fpjividchzkaacugli52ylcef4
       '@mantine/prism': 4.2.7_fpjividchzkaacugli52ylcef4
@@ -580,6 +582,20 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/react'
+    dev: false
+
+  /@mantine/dates/4.2.7_oawyaoyg2dg5cst6qbz5qfluxm:
+    resolution: {integrity: sha512-+60DdqTLAXVZVR1z/YZRhL2RjwVE6iaoevNOk8OGVPbXLO7oSBK2LA20JBljZizDEZaI0sg6aTUhdhTMX+IHBA==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      dayjs: ^1.10.5
+      react: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
+      '@mantine/hooks': 4.2.7_react@17.0.2
+      dayjs: 1.11.2
+      react: 17.0.2
     dev: false
 
   /@mantine/hooks/4.2.7_react@17.0.2:
