@@ -26,6 +26,7 @@
     "@mantine/notifications": "^4.2.7",
     "@mantine/prism": "^4.2.7",
     "@mantine/spotlight": "^4.2.7",
-    "dayjs": "^1.11.2"
+    "dayjs": "^1.11.2",
+    "react-beautiful-dnd": "^13.1.0"
   }
 }
