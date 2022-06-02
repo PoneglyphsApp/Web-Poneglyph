@@ -96,6 +96,7 @@ importers:
       '@mantine/modals': ^4.2.7
       '@mantine/notifications': ^4.2.7
       '@mantine/prism': ^4.2.7
+      '@mantine/spotlight': ^4.2.7
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
       '@vitejs/plugin-react': ^1.3.0
@@ -113,6 +114,7 @@ importers:
       '@mantine/modals': 4.2.7_3uc52xttrc33ha2poxtweef65u
       '@mantine/notifications': 4.2.7_3uc52xttrc33ha2poxtweef65u
       '@mantine/prism': 4.2.7_3uc52xttrc33ha2poxtweef65u
+      '@mantine/spotlight': 4.2.7_3uc52xttrc33ha2poxtweef65u
       dayjs: 1.11.2
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
@@ -978,6 +980,20 @@ packages:
       prism-react-renderer: 1.3.3_react@17.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /@mantine/spotlight/4.2.7_3uc52xttrc33ha2poxtweef65u:
+    resolution: {integrity: sha512-mpmZ7gvQuCjwAWCqDx24PJzMGFjouhTmZEb7/jDdDc6HpPbBp0rXJz+pvX3uiesZ27oI5eY0q3eh7fn9w+zX7g==}
+    peerDependencies:
+      '@mantine/core': 4.2.7
+      '@mantine/hooks': 4.2.7
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@mantine/core': 4.2.7_3uqlwqcscobh7gam5alu4ptwxq
+      '@mantine/hooks': 4.2.7_react@18.1.0
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
     dev: false
 
   /@mantine/spotlight/4.2.7_fpjividchzkaacugli52ylcef4:
