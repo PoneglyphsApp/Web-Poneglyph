@@ -98,6 +98,7 @@ importers:
 
   packages/ui:
     specifiers:
+      '@mantine/hooks': ^4.2.7
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
       eslint: ^7.32.0
@@ -105,6 +106,8 @@ importers:
       react: ^17.0.2
       tsconfig: workspace:*
       typescript: ^4.5.2
+    dependencies:
+      '@mantine/hooks': 4.2.7_react@17.0.2
     devDependencies:
       '@types/react': 17.0.45
       '@types/react-dom': 17.0.17
@@ -482,6 +485,14 @@ packages:
       '@jridgewell/resolve-uri': 3.0.7
       '@jridgewell/sourcemap-codec': 1.4.13
     dev: true
+
+  /@mantine/hooks/4.2.7_react@17.0.2:
+    resolution: {integrity: sha512-lBzoVjiqCCbQyr9YIRReFCo2jSXAZGSOgf1QDVa4rq3BxkwVDBsriHOpvG9h4mq2sWh4sjzPvfgy/OK/e2QpYQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 17.0.2
+    dev: false
 
   /@next/env/12.0.8:
     resolution: {integrity: sha512-Wa0gOeioB9PHap9wtZDZEhgOSE3/+qE/UALWjJHuNvH4J3oE+13EjVOiEsr1JcPCXUN8ESQE+phDKlo6qJ8P9g==}
