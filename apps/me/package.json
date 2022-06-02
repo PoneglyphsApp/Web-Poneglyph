@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^4.2.7",
     "@mantine/hooks": "^4.2.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
