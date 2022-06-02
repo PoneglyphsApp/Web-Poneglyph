@@ -27,6 +27,7 @@
     "@mantine/prism": "^4.2.7",
     "@mantine/spotlight": "^4.2.7",
     "dayjs": "^1.11.2",
-    "react-beautiful-dnd": "^13.1.0"
+    "react-beautiful-dnd": "^13.1.0",
+    "tabler-icons-react": "^1.48.1"
   }
 }
