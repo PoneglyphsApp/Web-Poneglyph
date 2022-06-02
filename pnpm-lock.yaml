@@ -102,6 +102,7 @@ importers:
       '@vitejs/plugin-react': ^1.3.0
       dayjs: ^1.11.2
       react: ^18.0.0
+      react-beautiful-dnd: ^13.1.0
       react-dom: ^18.0.0
       typescript: ^4.6.3
       vite: ^2.9.9
@@ -117,6 +118,7 @@ importers:
       '@mantine/spotlight': 4.2.7_3uc52xttrc33ha2poxtweef65u
       dayjs: 1.11.2
       react: 18.1.0
+      react-beautiful-dnd: 13.1.0_ef5jwxihqo6n7gxfmzogljlgcm
       react-dom: 18.1.0_react@18.1.0
     devDependencies:
       '@types/react': 18.0.10
@@ -3457,6 +3459,25 @@ packages:
     resolution: {integrity: sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==}
     dev: false
 
+  /react-beautiful-dnd/13.1.0_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-aGvblPZTJowOWUNiwd6tNfEpgkX5OxmpqxHKNW/4VmvZTNTbeiq7bA3bn5T+QSF2uibXB0D1DmJsb1aC/+3cUA==}
+    peerDependencies:
+      react: ^16.8.5 || ^17.0.0
+      react-dom: ^16.8.5 || ^17.0.0
+    dependencies:
+      '@babel/runtime': 7.18.3
+      css-box-model: 1.2.1
+      memoize-one: 5.2.1
+      raf-schd: 4.0.3
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-redux: 7.2.8_ef5jwxihqo6n7gxfmzogljlgcm
+      redux: 4.2.0
+      use-memo-one: 1.1.2_react@18.1.0
+    transitivePeerDependencies:
+      - react-native
+    dev: false
+
   /react-beautiful-dnd/13.1.0_react@17.0.2:
     resolution: {integrity: sha512-aGvblPZTJowOWUNiwd6tNfEpgkX5OxmpqxHKNW/4VmvZTNTbeiq7bA3bn5T+QSF2uibXB0D1DmJsb1aC/+3cUA==}
     peerDependencies:
@@ -3575,6 +3596,28 @@ packages:
 
   /react-property/2.0.0:
     resolution: {integrity: sha512-kzmNjIgU32mO4mmH5+iUyrqlpFQhF8K2k7eZ4fdLSOPFrD1XgEuSBv9LDEgxRXTMBqMd8ppT0x6TIzqE5pdGdw==}
+    dev: false
+
+  /react-redux/7.2.8_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-6+uDjhs3PSIclqoCk0kd6iX74gzrGc3W5zcAjbrFgEdIjRSQObdIwfx80unTkVUYvbQ95Y8Av3OvFHq1w5EOUw==}
+    peerDependencies:
+      react: ^16.8.3 || ^17 || ^18
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.18.3
+      '@types/react-redux': 7.1.24
+      hoist-non-react-statics: 3.3.2
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-is: 17.0.2
     dev: false
 
   /react-redux/7.2.8_react@17.0.2:
@@ -4382,6 +4425,14 @@ packages:
       react: ^16.8.0 || ^17.0.0
     dependencies:
       react: 17.0.2
+    dev: false
+
+  /use-memo-one/1.1.2_react@18.1.0:
+    resolution: {integrity: sha512-u2qFKtxLsia/r8qG0ZKkbytbztzRb317XCkT7yP8wxL0tZ/CzK2G+WWie5vWvpyeP7+YoPIwbJoIHJ4Ba4k0oQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0
+    dependencies:
+      react: 18.1.0
     dev: false
 
   /use-subscription/1.5.1_react@17.0.2:
