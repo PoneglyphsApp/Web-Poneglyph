@@ -40,6 +40,7 @@ importers:
   apps/landing:
     specifiers:
       '@mantine/core': ^4.2.7
+      '@mantine/dates': ^4.2.7
       '@mantine/form': ^4.2.7
       '@mantine/hooks': ^4.2.7
       '@types/node': ^17.0.12
@@ -56,6 +57,7 @@ importers:
       ui: workspace:*
     dependencies:
       '@mantine/core': 4.2.7_dsfdjkod2wa2m7exzlqes3ycgy
+      '@mantine/dates': 4.2.7_oawyaoyg2dg5cst6qbz5qfluxm
       '@mantine/form': 4.2.7_react@17.0.2
       '@mantine/hooks': 4.2.7_react@17.0.2
       dayjs: 1.11.2
@@ -649,7 +651,7 @@ packages:
       dayjs: ^1.10.5
       react: '>=16.8.0'
     dependencies:
-      '@mantine/core': 4.2.7_57xneojyfat54ufu33ckyylmvy
+      '@mantine/core': 4.2.7_dsfdjkod2wa2m7exzlqes3ycgy
       '@mantine/hooks': 4.2.7_react@17.0.2
       dayjs: 1.11.2
       react: 17.0.2
